@@ -1,0 +1,51 @@
+.card {
+  position: relative; 
+  box-sizing: border-box; 
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.char_name {
+  font-size: 15px;
+  color: #fff;
+}
+  
+.link {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.char_photo {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+}
+.button-container {
+  background-color: #535e8f;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0px; 
+  right: 0px; 
+  border-radius: 10px;
+}
+
+.button-favorite, .button-delete {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 10; 
+  transition: color 0.3s ease;
+  padding: 5px;
+}
+
+.button-favorite.favorite {
+    color: red;
+  }
+  
+  
