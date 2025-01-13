@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/disney1/static/css/main.7362f875.css",
+    "main.css": "/disney1/static/css/main.4dcf7925.css",
     "main.js": "/disney1/static/js/main.8b4f8723.js",
     "index.html": "/disney1/index.html",
-    "main.7362f875.css.map": "/disney1/static/css/main.7362f875.css.map",
+    "main.4dcf7925.css.map": "/disney1/static/css/main.4dcf7925.css.map",
     "main.8b4f8723.js.map": "/disney1/static/js/main.8b4f8723.js.map"
   },
   "entrypoints": [
-    "static/css/main.7362f875.css",
+    "static/css/main.4dcf7925.css",
     "static/js/main.8b4f8723.js"
   ]
 }

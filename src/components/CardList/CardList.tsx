@@ -51,11 +51,11 @@ const CardList = () => {
 
     // Сортировка по алфавиту
     const sortedCards = isSorted
-    ? cardsToDisplay.sort((a, b) => {
+    ? filteredCards.sort((a, b) => {
         const comparison = a.name.localeCompare(b.name);
         return sortAscending ? comparison : -comparison;
       })
-    : cardsToDisplay;
+    : filteredCards;
 
    // пагинация
    const indexOfLastCard = currentPage * cardsPerPage;
@@ -92,6 +92,15 @@ const CardList = () => {
   return (
     <div>
         <h1 className={ styles["cards-title"] }>Disney characters</h1>
+        <div className={styles["search-container"]}>
+          <input
+            type="text"
+            placeholder="Search characters..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className={styles["search-input"]}
+          />
+        </div>
         <div className={ styles["buttons-container"] }>
           <button 
             className={ styles["button"] }
