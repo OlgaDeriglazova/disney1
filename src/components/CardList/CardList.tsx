@@ -105,12 +105,11 @@ const CardList = () => {
             className={ styles["button"] }
             onClick={toggleSort}
             >Alphabetically</button>
-            
+        </div>
           <div className={styles["add-button-container"]}>
             <Link to="/create-character">
               <button className={`${styles["button"]} ${styles["button-add"]}`}>Add a new character</button>
             </Link>
-          </div>
         </div>
       
 
