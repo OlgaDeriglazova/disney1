@@ -57,7 +57,7 @@
 }
 
 .card-container {
-    min-width: 300px;
+    min-width: 250px;
     max-width: 400px;
 }
 
@@ -68,7 +68,7 @@ p a {
 .pagination {
     display: flex;
     flex-wrap: nowrap;
-    text-align: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
