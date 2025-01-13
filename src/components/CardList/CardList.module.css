@@ -50,7 +50,7 @@
     flex-wrap: wrap;
     max-width: 70%;
     margin: 0 auto;
-    justify-content:space-around;
+    justify-content:space-between;
     gap: 16px;
     margin: 30px auto;
     padding: 30px;
