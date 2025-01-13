@@ -56,10 +56,14 @@
     padding: 30px;
     background-color: #232323;
 }
-
+@media (max-width: 1022px) {
+    .card-list {
+        justify-content: center;
+    }
+}
+ 
 .card-container {
-    min-width: 400px;
-    max-width: 400px;
+    width: 350px;
 }
 
 p a {
