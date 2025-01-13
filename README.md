@@ -1,6 +1,6 @@
 # SPA со списком карточек (тестовое)
 
-### React + TypeScript + Vite
+### React + TypeScript
 
 **Задача:**
 
