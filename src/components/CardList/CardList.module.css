@@ -17,6 +17,7 @@
     justify-content: center; 
     gap: 10px;
     margin: 20px 0;
+    width: 100%;
 }
 
 .button {
@@ -43,6 +44,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 70%;
+    margin: 0 auto;
     justify-content:space-around;
     gap: 16px;
     margin: 30px;
