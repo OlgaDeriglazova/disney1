@@ -118,6 +118,7 @@ const CardList = () => {
           <p>There are no cards</p>
         ) : (
         currentCards.map((card) => (
+            <div className={ styles["card-container"] }>
             <Card 
               name={card.name}
               imageUrl={card.imageUrl}
@@ -126,6 +127,7 @@ const CardList = () => {
               toggleFavorite={toggleFavorite} 
               isFavorite={favoriteCards.some((fav) => fav._id === card._id)}
             />
+            </div>
         ))
       )}
     </div>
